@@ -5,6 +5,27 @@
     padding: 0;
 }
 
+.el-dialog__header {
+    background: #1AB394;
+    color: white;
+}
+
+.el-dialog__title {
+    color: white !important;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+    color: white;
+}
+
+.el-icon-close:before {
+    color: white;
+}
+
+.el-table .cell {
+    text-align: center;
+}
+
 ul,
 li {
     list-style: none;

@@ -14,7 +14,7 @@
               <router-link to="/jiecguih" tag="li" class="li2">借出和归还</router-link>
               <router-link to="/shebeiguas" tag="li" class="li2">挂失</router-link>
               <router-link to="/shebeibaox" tag="li" class="li2">报修</router-link>
-              <li class="li2">报废</li>
+              <router-link to="/shebeibaof" tag="li" class="li2">报废</router-link>
             </ul>
           </div>
           <div class="eldiv">
@@ -23,7 +23,7 @@
                 <strong>易耗品<span style="opacity:0">啊</span></strong>
               </li>
               <router-link to="/yihaoruku" tag="li" class="li2">入库</router-link>
-              <li class="li2">分发</li>
+              <router-link to="/yihaofenfa" tag="li" class="li2">分发</router-link>
               <li class="li2">核销</li>
             </ul>
           </div>

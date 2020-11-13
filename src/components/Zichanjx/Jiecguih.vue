@@ -57,7 +57,7 @@
 import Header from "../Header";
 import Chak from "./Chak";
 export default {
-  name: "shebeiruku",
+  name: "jiecguih",
   components: {
     Header,
     Chak

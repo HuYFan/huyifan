@@ -41,6 +41,26 @@ export default new Router({
             path: '/shebeibaox',
             component: () =>
                 import ('./components/Zichanjx/Shebeibaox.vue')
+        },
+        {
+            path: '/shebeibaof',
+            component: () =>
+                import ('./components/Zichanjx/Shebeibaof.vue')
+        },
+        {
+            path: '/yihaofenfa',
+            component: () =>
+                import ('./components/Zichanjx/Yihaofenfa.vue')
+        },
+        {
+            path: '/weichuli2',
+            component: () =>
+                import ('./components/Zichanjx/Weichuli2.vue')
+        },
+        {
+            path: '/jitifenfa',
+            component: () =>
+                import ('./components/Zichanjx/Jitifenfa.vue')
         }
     ]
 })

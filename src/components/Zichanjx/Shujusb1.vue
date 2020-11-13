@@ -1,6 +1,6 @@
 <template>
     <div>
-    <el-button type="text" @click="dialogTableVisible = true" style="position:absolute;left: 1154px;top: 257px;color:#606266;opacity:0">{{bj}}</el-button>
+    <el-button type="text" @click="dialogTableVisible = true" style="position:absolute;left: 1181px;top: 257px;color:#606266;opacity:0">{{bj}}</el-button>
       <el-button type="primary" @click="dialogTableVisible = true" style="position:absolute;left: 64px;top: 765px;background:white;color:#ED5665;border:1px solid #ED5665;border-radius: 0%;">{{sb}}</el-button>
       <el-dialog title="数据上报" :visible.sync="dialogTableVisible" style="width:158%;margin-left:-400px">
         <el-table :data="gridData" :header-cell-style="{background:'#D7D7D7',color:'#666666'}" border>
@@ -22,7 +22,7 @@
 </template>
 <script>
 export default {
-    name:'shujusb',
+    name:'shujusb1',
     props:{
         bj:{
             type:String,

@@ -4,7 +4,7 @@
     <span class="sp1">教学设备管理>设备报修</span>
     <div class="div1">
       <span class="sp2">报修记录</span>
-      <el-button type="danger" @click="dialogTableVisible = true" style="border-radius: 0%;" id="btn1" >+普通挂失</el-button>
+      <el-button type="danger" @click="dialogTableVisible = true" style="border-radius: 0%;" id="btn1" >新增报修</el-button>
       <el-dialog title="数据上报" :visible.sync="dialogTableVisible" style="width:158%;margin-left:-400px">
           <el-input v-model="input" placeholder="请输入编码或名称" style="width:300px;margin-left:0px"></el-input>
           <span style="font-size:14px;margin-left:20px">入库时间:</span>
@@ -100,7 +100,7 @@
 <script>
 import Header from "../Header";
 export default {
-  name: "shebeiruku",
+  name: "shebeibaox",
   components: {
     Header,
   },
@@ -314,18 +314,19 @@ export default {
   }
 };
 </script>
+
 <style scoped>
 #all {
   width: 100%;
   height: 900px;
   background-color: #f4f4f6;
 }
-::v-deep.el-table th > .cell {
+/* ::v-deep.el-table th > .cell {
     text-align: center;
 }
 ::v-deep.el-table .cell {
     text-align: center;
-}
+} */
 #span3{
     display: block;
     margin-top: 10px;

@@ -3,8 +3,8 @@
         <Header></Header>
         <span class="sp1">教学设备管理>设备借出和归还>未处理借入申请</span>
     <div class="div1">
-      <router-link to="/jiecguih" class="sp2" tag="span"><<返回</router-link>
-      <el-button type="danger" style="border-radius: 0%;width:100px;background:#1AB394;border:none" id="btn1">借出</el-button>
+      <router-link to="/yihaofenfa" class="sp2" tag="span"><<返回</router-link>
+      <el-button type="danger" style="border-radius: 0%;width:100px;background:#1AB394;border:none" id="btn1">分发</el-button>
       <el-button type="danger" @click="dialogVisible1 = true" style="border-radius: 0%;width:100px;background:#ED5665;border:none" id="btn2">拒绝</el-button>
       <el-button type="text" @click="dialogVisible1 = true" style="color:#606266;position:absolute;top:255px;left:1186px;z-index:100;opacity:0">拒绝</el-button>
       <el-dialog title="拒绝申请" :visible.sync="dialogVisible1" width="35%" :before-close="handleClose">
@@ -16,13 +16,11 @@
       <template>
         <el-table ref="multipleTable" :data="tableData" border tooltip-effect="dark" :header-cell-style="{background:'#D7D7D7',color:'#666666'}" style="width: 95%;margin-left:34px;margin-top:15px" @selection-change="handleSelectionChange">
           <el-table-column type="selection" width="40" show-overflow-tooltip="true"></el-table-column>
-          <el-table-column label="申请人姓名" width="166"><template slot-scope="scope">{{ scope.row.date }}</template></el-table-column>
-          <el-table-column prop="a2" label="所在部门" width="166"></el-table-column>
-          <el-table-column prop="a3" label="申请时间" width="166"></el-table-column>
-          <el-table-column prop="a4" label="借入设备" width="166"></el-table-column>
-          <el-table-column prop="a5" label="借入时间" width="166"></el-table-column>
-          <el-table-column prop="a6" label="预计归还时间" width="166"></el-table-column>
-          <el-table-column prop="a7" label="操作" width="167"></el-table-column>
+          <el-table-column label="申请人姓名" width="232.4"><template slot-scope="scope">{{ scope.row.date }}</template></el-table-column>
+          <el-table-column prop="a2" label="所在部门" width="233.4"></el-table-column>
+          <el-table-column prop="a3" label="申请时间" width="233.4"></el-table-column>
+          <el-table-column prop="a4" label="领用易耗品" width="233.4"></el-table-column>
+          <el-table-column prop="a7" label="操作" width="233.4"></el-table-column>
         </el-table>
       </template>
       <span id="span2">共5页，每页展示10条</span>

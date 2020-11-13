@@ -19,7 +19,7 @@
 </template>
 <script>
 export default {
-    name:'shujusb',
+    name:'shujusb3',
     props:{
         bj:{
             type:String,
