@@ -52,7 +52,7 @@
 <script>
 import Header from "../Header";
 export default {
-  name: "jiecguih",
+  name: "yihaofenfa",
   components: {
     Header,
   },

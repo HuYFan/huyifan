@@ -95,7 +95,7 @@
 <script>
 import Header from "../Header";
 export default {
-  name: "shebeiguas",
+  name: "fangchangz",
   components: {
     Header,
   },

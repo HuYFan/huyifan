@@ -83,7 +83,7 @@
 <script>
 import Header from "../Header";
 export default {
-  name: "shebeibaof",
+  name: "yihaohx",
   components: {
     Header,
   },

@@ -55,10 +55,10 @@
               <li class="li1">
                 <strong>其他资产</strong>
               </li>
-              <li class="li2">入库</li>
-              <li class="li2">挂失</li>
-              <li class="li2">报修</li>
-              <li class="li2">报废</li>
+              <router-link to="/shebeiruku" tag="li" class="li2">入库</router-link>
+              <router-link to="/shebeiguas" tag="li" class="li2">挂失</router-link>
+              <router-link to="/shebeibaox" tag="li" class="li2">报修</router-link>
+              <router-link to="/shebeibaof" tag="li" class="li2">报废</router-link>
             </ul>
           </div>
           <div class="eldiv">
@@ -67,7 +67,7 @@
                 <strong>项目<span style="opacity:0">啊啊</span>
                 </strong>
               </li>
-              <li class="li2">录入</li>
+              <router-link to="/xiangmulr" tag="li" class="li2">录入</router-link>
             </ul>
           </div>
         </el-dropdown-item>

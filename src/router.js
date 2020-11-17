@@ -91,6 +91,11 @@ export default new Router({
             path: '/fangchangz',
             component: () =>
                 import ('./components/Zichanjx/Fangchangz.vue')
+        },
+        {
+            path: '/xiangmulr',
+            component: () =>
+                import ('./components/Zichanjx/Xiangmulr.vue')
         }
     ]
 })
