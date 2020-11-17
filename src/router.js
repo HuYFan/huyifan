@@ -61,6 +61,36 @@ export default new Router({
             path: '/jitifenfa',
             component: () =>
                 import ('./components/Zichanjx/Jitifenfa.vue')
+        },
+        {
+            path: '/yihaohex',
+            component: () =>
+                import ('./components/Zichanjx/Yihaohex.vue')
+        },
+        {
+            path: '/dichandj',
+            component: () =>
+                import ('./components/Zichanjx/Dichandj.vue')
+        },
+        {
+            path: '/dichangz',
+            component: () =>
+                import ('./components/Zichanjx/Dichangz.vue')
+        },
+        {
+            path: '/fangchandj',
+            component: () =>
+                import ('./components/Zichanjx/Fangchandj.vue')
+        },
+        {
+            path: '/fangchanwx',
+            component: () =>
+                import ('./components/Zichanjx/Fangchanwx.vue')
+        },
+        {
+            path: '/fangchangz',
+            component: () =>
+                import ('./components/Zichanjx/Fangchangz.vue')
         }
     ]
 })

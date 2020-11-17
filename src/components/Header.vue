@@ -24,7 +24,7 @@
               </li>
               <router-link to="/yihaoruku" tag="li" class="li2">入库</router-link>
               <router-link to="/yihaofenfa" tag="li" class="li2">分发</router-link>
-              <li class="li2">核销</li>
+              <router-link to="/yihaohex" tag="li" class="li2">核销</router-link>
             </ul>
           </div>
           <div class="eldiv">
@@ -33,8 +33,8 @@
                 <strong>地产<span style="opacity:0">啊啊</span>
                 </strong>
               </li>
-              <li class="li2">登记</li>
-              <li class="li2">改造</li>
+              <router-link to="/dichandj" tag="li" class="li2">登记</router-link>
+              <router-link to="/dichangz" tag="li" class="li2">改造</router-link>
               <li class="li2">核销</li>
             </ul>
           </div>
@@ -44,9 +44,9 @@
                 <strong>房产<span style="opacity:0">啊啊</span>
                 </strong>
               </li>
-              <li class="li2">登记</li>
-              <li class="li2">维修</li>
-              <li class="li2">改造</li>
+              <router-link to="/fangchandj" tag="li" class="li2">登记</router-link>
+              <router-link to="/fangchanwx" tag="li" class="li2">维修</router-link>
+              <router-link to="/fangchangz" tag="li" class="li2">改造</router-link>
               <li class="li2">核销</li>
             </ul>
           </div>

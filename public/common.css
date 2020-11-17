@@ -5,6 +5,23 @@
     padding: 0;
 }
 
+.el-tree-node__label {
+    border: 1px solid #CCCCCC;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.el-tree-node__content {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.el-tree-node>.el-tree-node__children {
+    overflow: visible !important;
+}
+
 .el-dialog__header {
     background: #1AB394;
     color: white;
