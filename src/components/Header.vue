@@ -82,9 +82,9 @@
               <li class="li1">
                 <strong>申请</strong>
               </li>
-              <li class="li2">教学设备借入申请</li>
-              <li class="li2">易耗品领用申请</li>
-              <li class="li2">采购申请</li>
+              <router-link to="/jierusq" tag="li" class="li2">教学设备借入申请</router-link>
+              <router-link to="/lingyongsq" tag="li" class="li2">易耗品领用申请</router-link>
+              <router-link to="/caigousq" tag="li" class="li2">采购申请</router-link>
             </ul>
           </div>
           <div class="eldiv">

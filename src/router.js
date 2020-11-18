@@ -96,6 +96,36 @@ export default new Router({
             path: '/xiangmulr',
             component: () =>
                 import ('./components/Zichanjx/Xiangmulr.vue')
+        },
+        {
+            path: '/jierusq',
+            component: () =>
+                import ('./components/Shenqshenp/Jierusq.vue')
+        },
+        {
+            path: '/faqijr',
+            component: () =>
+                import ('./components/Shenqshenp/Faqijr.vue')
+        },
+        {
+            path: '/lingyongsq',
+            component: () =>
+                import ('./components/Shenqshenp/Lingyongsq.vue')
+        },
+        {
+            path: '/faqily',
+            component: () =>
+                import ('./components/Shenqshenp/Faqily.vue')
+        },
+        {
+            path: '/caigousq',
+            component: () =>
+                import ('./components/Shenqshenp/Caigousq.vue')
+        },
+        {
+            path: '/faqicg',
+            component: () =>
+                import ('./components/Shenqshenp/Faqicg.vue')
         }
     ]
 })
