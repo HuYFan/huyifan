@@ -126,6 +126,51 @@ export default new Router({
             path: '/faqicg',
             component: () =>
                 import ('./components/Shenqshenp/Faqicg.vue')
+        },
+        {
+            path: '/jrshenp',
+            component: () =>
+                import ('./components/Shenqshenp/Jrshenp.vue')
+        },
+        {
+            path: '/lyshenp',
+            component: () =>
+                import ('./components/Shenqshenp/Lyshenp.vue')
+        },
+        {
+            path: '/cgshenp',
+            component: () =>
+                import ('./components/Shenqshenp/Cgshenp.vue')
+        },
+        {
+            path: '/caozuorz',
+            component: () =>
+                import ('./components/Caozuorz/Caozuorz.vue')
+        },
+        {
+            path: '/kucun',
+            component: () =>
+                import ('./components/Tongji/Kucun.vue')
+        },
+        {
+            path: '/taizhang',
+            component: () =>
+                import ('./components/Tongji/Taizhang.vue')
+        },
+        {
+            path: '/pandian',
+            component: () =>
+                import ('./components/Tongji/Pandian.vue')
+        },
+        {
+            path: '/kaishipd',
+            component: () =>
+                import ('./components/Tongji/Kaishipd.vue')
+        },
+        {
+            path: '/didiansz',
+            component: () =>
+                import ('./components/Shezhi/Didiansz.vue')
         }
     ]
 })

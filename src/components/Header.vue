@@ -92,9 +92,9 @@
               <li class="li1">
                 <strong>审批</strong>
               </li>
-              <li class="li2">教学设备借入审批</li>
-              <li class="li2">易耗品领用审批</li>
-              <li class="li2">采购审批</li>
+              <router-link to="/jrshenp" tag="li" class="li2">教学设备借入审批</router-link>
+              <router-link to="/lyshenp" tag="li" class="li2">易耗品领用审批</router-link>
+              <router-link to="/cgshenp" tag="li" class="li2">采购审批</router-link>
             </ul>
           </div>
         </el-dropdown-item>
@@ -109,9 +109,9 @@
               <li class="li1">
                 <strong>统计</strong>
               </li>
-              <li class="li3">库存</li>
-              <li class="li3">台账</li>
-              <li class="li3">盘点</li>
+              <router-link to="/kucun" tag="li" class="li3">库存</router-link>
+              <router-link to="/taizhang" tag="li" class="li3">台账</router-link>
+              <router-link to="/pandian" tag="li" class="li3">盘点</router-link>
             </ul>
           </div>
         </el-dropdown-item>
@@ -128,7 +128,7 @@
                 <strong>基础设置</strong>
               </li>
               <li class="li2">审批流程设置</li>
-              <li class="li2">资产存放地点设置</li>
+              <router-link to="/didiansz" tag="li" class="li2">资产存放地点设置</router-link>
               <li class="li2">资产分类设置</li>
             </ul>
           </div>
@@ -145,7 +145,7 @@
         </el-dropdown-item>
       </el-dropdown-menu>
     </el-dropdown>
-    <span style="font-size:16px;cursor: pointer;" class="sp1">操作日志</span>
+    <router-link to="/caozuorz" tag="span" style="font-size:16px;cursor: pointer;" class="sp1">操作日志</router-link>
     <span style="font-size:16px;" class="sp1">帮助</span>
     <img src="../assets/u9.png" id="img1">
     <span class="sp3">张小丰</span>
